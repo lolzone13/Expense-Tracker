@@ -4,6 +4,7 @@ const colors = require('colors');
 const morgan = require('morgan');
 const connectDB = require('./config/db');
 
+
 dotenv.config({ path: './config/config.env' });
 
 connectDB();
@@ -11,6 +12,8 @@ connectDB();
 const PORT = process.env.PORT || 5000;
 
 const app = express();
+app.use(express.json());
+
 const transactions = require('./routes/transactions')
 
 app.use('/api/v1/transactions', transactions);
