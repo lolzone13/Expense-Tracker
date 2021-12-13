@@ -1,4 +1,4 @@
-# A Simple expense tracker created with the MERN stack
+# A simple expense tracker created with the MERN stack
 
 
 In the project directory, run:
