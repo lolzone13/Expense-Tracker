@@ -13,12 +13,12 @@ function IncomeExpenses() {
 
     return (
         <div className="inc-exp-container">
-            <div>
-                <h4>Income</h4>
+            <div className='income'>
+                <h4>INCOME</h4>
                 <p className="money plus">+${income}</p>
             </div>
-            <div>
-                <h4>Expense</h4>
+            <div className='expense'>
+                <h4>EXPENSE</h4>
                 <p className="money minus">-${Math.abs(expense)}</p>
             </div>
         </div>

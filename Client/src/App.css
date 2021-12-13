@@ -1,4 +1,56 @@
 h2 {
     margin-top: 80px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: rgb(247, 247, 243);
+}
+
+.inc-exp-container {
+    display: flex;
+
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;
+    width: 220px;
+    justify-content: center;
+    background-color: white;
+    border: 1px;
+    box-shadow: 2px 2px rgb(148, 147, 147);
+    
+}
+
+.income {
+    width: 100px;
+    
+    text-align: center;
+    margin-right: 50px;
+}
+.income p {
+    margin-top: -12px;
+    color:rgb(106, 202, 9)
+}
+
+.expense {
+    width: 100px;
+    text-align: center;    
+}
+.expense p {
+    margin-top: -12px;
+    color:rgb(202, 9, 19);
+}
+
+.balance {
+    text-align: center;    
+    margin-top: 20px;
+}
+
+.balance-amount {
+    text-align: center;    
+    margin-top: -20px;
 }

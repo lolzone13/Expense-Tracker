@@ -14,8 +14,8 @@ function Balance() {
 
     return (
         <div>
-            <h4> Your Balance </h4>
-            <h1>${totalAmount}</h1>
+            <h4 className="balance"> YOUR BALANCE </h4>
+            <h1 className="balance-amount">${totalAmount}</h1>
         </div>
     );
 }
